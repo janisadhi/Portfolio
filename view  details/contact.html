@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+
+
+</head>
+
+<body>
+    <nav class="navbar d-flex justify-content-center " id="navm">
+        <a class="logo-link activated" href="..">Janis Adhikari</a>
+        <ul class="d-flex">
+            <li><a class="nav-link " href="/index.html">Home</a></li>
+            <li><a class="nav-link" href="/view  details/services.html">Services</a></li>
+            <li><a class="nav-link" href="https://janisadhikari.com.np">Blog</a></li>
+            <li><a class=" nav-link activated" href="/view  details/contact.html">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+    <div id="menu" onclick="sidebar()">
+        <div class="toogle">
+            <div class="too"></div>
+            <div class="too"></div>
+            <div class="too"></div>
+        </div>
+
+    </div>
+
+    <div id="sidebar" style="display: none;">
+
+        <ul class="d-flex" id="side-content">
+            <li><a class="nav-link " href="/index.html">Home</a></li>
+            <div id=line></div>
+            <li><a class="nav-link" href="services.html">Services</a></li>
+            <div id=line></div>
+
+            <li><a class="nav-link" href="https://janisadhikari.com.np">Blog</a></li>
+            <div id=line></div>
+
+            <li><a class=" nav-link activated" href="contact.html">Contact</a></li>
+
+
+        </ul>
+    </div>
+    <!-- ------------------------- -->
+
+    <div class="containm d-flex justify-content-center " style="flex-direction: column;">
+        <div class="contact">
+
+            <h2>Contact me</h2>
+            <form>
+                <label for="Name">Name:</label>
+                <input type="text" name="Name" id="v-name" placeholder="Enter your name."><br><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="v-email" placeholder="Enter your E-mail."><br><br>
+
+                <label for="message">Enter your message:</label><br>
+                <textarea name="message" id="v-message" cols="30" rows="5"
+                    placeholder="Leave your message here."></textarea><br>
+                <button type="submit" class="btn-primary btn-c">Send</button>
+                <button type="reset" class="btn-primary btn-c">Clear</button>
+
+
+
+            </form>
+        </div>
+        <div class="socialMedia d-flex">
+            <div class="facebook social-items">
+                <img src="/img/cover.jpg" alt="" class="cover">
+                <img src="/img/dp.jpg" alt="" class="dp">
+                <h2>Janis Adhikari</h2>
+                <div class="button-fac">
+                    <a class="aa" href="https://facebook.com/janis.adhikari123"><button
+                            class="follow">Follow</button></a>
+                    <button class="message">...</button>
+                    <button class="message">...</button>
+                </div>
+                <img src="/img/fb.png" alt="" class="logosm">
+            </div>
+
+            <div class="twitter social-items">
+                <div class="cover-t"></div>
+                <img src="/img/dp.jpg" alt="" class="dp-t">
+                <div class="button-tw">
+                    <button class="message-t">...</button>
+                    <a class="aa" href="https://facebook.com/janis.adhikari123"><button
+                            class="follow-t">Follow</button></a>
+                </div>
+                <h3>Janis Adhikari</h3>
+                <p style="margin:0px 5px; color:rgb(105, 104, 104)">@janis_adhikari</p>
+                <pre style="color:rgb(114, 114, 112);font-size: 14px;">
+    Commercial & industrial
+    Born August 17, 2005 Joined June 2021
+    <b>80</b>Following <b>100</b>Followers
+                </pre>
+
+                <img src="/img/twi.png" alt="" class="logosm">
+            </div>
+
+            <div class="instagram social-items">
+                <div class="up d-flex">
+                    <img src="/img/dp.jpg" alt="" class="dp-i ">
+                    <div class="hb">
+                        <h2>janisadhi</h2>
+                        <div class="btn-i d-flex">
+                            <a href=""><button class="follow-i">Follow</button></a>
+                            <a href=""><button class="message-i">Message</button></a>
+                            <a href=""><button class="message-in">...</button></a>
+                        </div>
+                    </div>
+                    <img src="/img/ins.png" alt="" class="logosm">
+
+                </div>
+                <div style="margin:-30px 10px;">
+                    <pre><b>Janis Adhikari</b>
+        
+          hello!!
+
+            </pre>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <footer class="foot">
+        <h3>Thanks for visiting.</h3>
+        <hr>
+        <span>&copy;<a href=".." class="activated">Janis Adhikari</a>| All rights are reserved.</span><br><br>
+        <span>last updated 2023</span>
+
+    </footer>
+    <script src="/javascript/action.js"></script>
+</body>
+
+</html>
