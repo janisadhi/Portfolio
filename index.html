@@ -1,31 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>My Simple Website</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/mo.css">
+
 </head>
+
 <body>
-    <header>
-        <h1>Welcome to My Simple Website</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+    <nav class="navbar d-flex justify-content-center " id="navm">
+        <a class="logo-link activated" href="..">Janis Adhikari</a>
+        <ul class="d-flex">
+            <li><a class="nav-link activated" href="/index.html">Home</a></li>
+            <li><a class="nav-link" href="/view  details/services.html">Services</a></li>
+            <li><a class="nav-link" href="https://janisadhikari.com.np">Blog</a></li>
+            <li><a class=" nav-link" href="/view  details/contact.html">Contact</a></li>
+
+
         </ul>
+
     </nav>
-    <main>
-        <section>
-            <h2>About</h2>
-            <p>This is a simple website created using HTML.</p>
-        </section>
-        <section>
-            <h2>Contact</h2>
-            <p>You can reach us at contact@example.com</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 My Simple Website. All rights reserved.</p>
+
+    <div id="menu" onclick="sidebar()">
+        <div class="toogle">
+            <div class="too"></div>
+            <div class="too"></div>
+            <div class="too"></div>
+        </div>
+       
+    </div>
+
+    <div id="sidebar" style="display: none;">
+
+        <ul class="d-flex" id="side-content">
+            <li><a class="nav-link activated" href="/index.html">Home</a></li>
+            <div id=line></div>
+            <li><a class="nav-link" href="services.html">Services</a></li>
+            <div id=line></div>
+
+            <li><a class="nav-link" href="https://janisadhikari.com.np">Blog</a></li>
+            <div id=line></div>
+
+            <li><a class=" nav-link" href="contact.html">Contact</a></li>
+
+
+        </ul>
+    </div>
+    <div class="container d">
+        <img src="img/janis.jpeg" alt="profile" class="profileimg">
+        <div class="intro ">
+            <h1 class="intro-head">Janis Adhikari</h1>
+            <p class="intro-dis intro">I am a passionate front-end developer with a strong focus on creating visually
+                appealing and user-friendly web experiences. With a keen eye for design and a solid understanding of
+                front-end technologies, I strive to bridge the gap between aesthetics and functionality in every project
+                I work on.</p>
+            <button class="int-btn btn-primary" id="btnn" onclick="jan()">View details>></button>
+        </div>
+    </div>
+    <div class="main-detail" id="details" style="display: none;">
+        <div class="about">
+            <img src="img/q.jpeg" alt="qualification" class="about-img">
+            <h2 class="about-head">Qualification</h2>
+            <p class="about-para">I have a strong educational background and professional experience that has equipped
+                me with the skills and knowledge necessary for success as a front-end developer.</p>
+            <a href="view  details/qualification.html" class="btn-primary">See more..</a>
+        </div>
+        <div class="about">
+            <img src="img/skill.jpeg" alt="skill" class="about-img">
+            <h2 class="about-head">Skills</h2>
+            <p class="about-para">As a front-end developer, I possess a diverse range of skills that enable me to create
+                dynamic and engaging web experiences. Here are some of my key skills....</p>
+            <a href="view  details/skills.html" class="btn-primary">See more..</a>
+
+        </div>
+        <div class="about">
+            <img src="img/p.jpeg" alt="portfolio" class="about-img">
+            <h2 class="about-head">Portfolio</h2>
+            <p class="about-para">Welcome to my portfolio! Here, you will find a showcase of my recent projects that
+                highlight my skills and expertise as a front-end developer. Take a closer look at some of the notable
+                projects ...</p>
+            <a href="view  details/portfolio.html" class="btn-primary">See more..</a>
+
+        </div>
+    </div>
+    <footer class="foot">
+        <h3>Thanks for visiting.</h3>
+        <hr>
+        <span>&copy;<a href=".." class="activated">Janis Adhikari</a>| All rights are reserved.</span><br><br>
+        <span>last updated 2023</span>
+
     </footer>
+    <script src="/javascript/action.js"></script>
 </body>
+
 </html>
