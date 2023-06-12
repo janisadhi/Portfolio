@@ -197,7 +197,7 @@ a {
     height: auto;
     width: 80%;
     max-width: 800px;
-    min-width: 300px;
+    min-width: 250px;
     border: 1px double black;
     border-radius: 20px;
     padding: 1.5em 1.5em;
@@ -236,7 +236,7 @@ textarea {
 
 .facebook {
     height: 350px;
-    width: 350px;
+    width: 300px;
     border: 1px solid black;
     border-radius: 20px;
     position: relative;
@@ -312,7 +312,7 @@ textarea {
 
 .instagram {
     height: 230px;
-    width: 370px;
+    width: 300px;
     margin-top: 20px;
     border: 1px solid black;
     border-radius: 20px;
@@ -343,7 +343,7 @@ textarea {
 
 .message-i {
     height: 30px;
-    width: 80px;
+    width: 60px;
     border: none;
     border-radius: 5px;
     background-color: rgb(216, 206, 206);
@@ -385,7 +385,7 @@ textarea {
 
 .twitter {
     height: 350px;
-    width: 350px;
+    width: 300px;
     border: 1px solid black;
     border-radius: 20px;
     position: relative;
