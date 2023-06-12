@@ -196,6 +196,8 @@ a {
 .contact {
     height: auto;
     width: 80%;
+    max-width: 800px;
+    min-width: 300px;
     border: 1px double black;
     border-radius: 20px;
     padding: 1.5em 1.5em;
@@ -234,7 +236,7 @@ textarea {
 
 .facebook {
     height: 350px;
-    width: 300px;
+    width: 350px;
     border: 1px solid black;
     border-radius: 20px;
     position: relative;
@@ -383,7 +385,7 @@ textarea {
 
 .twitter {
     height: 350px;
-    width: 300px;
+    width: 350px;
     border: 1px solid black;
     border-radius: 20px;
     position: relative;
