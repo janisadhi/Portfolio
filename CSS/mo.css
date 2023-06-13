@@ -1,13 +1,18 @@
 @media (max-width:800px){
     body{
-        background-color: antiquewhite;
+        background-color: rgb(255, 255, 255);
     }
     #navm{
         display:none;
     }
-  #menue{
+  #menu{
     display:flex;
-    position: absolute;
+    background-color: rgb(242, 250, 222);
+    width:40px;
+    height:40px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 5px;
     
   }
   .too{
@@ -18,7 +23,7 @@
     background-color: black;
     border-radius: 20px;
     z-index:11;
-    border:2px solid white;
+    margin:5px 0px;
     
   }
     #side-content{
